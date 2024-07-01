@@ -10,9 +10,7 @@ class example extends StatefulWidget {
 class _exampleState extends State<example> {
   List a=[
     "hi",
-    "how",
-
-  ];
+    "how",];
   List b=[
     "assets/abc.png",
     "assets/qwe.png",
@@ -77,7 +75,7 @@ class _exampleState extends State<example> {
                       height: 100,
                       width: 100,
                       decoration: BoxDecoration(
-                        image: DecorationImage(image: AssetImage(b[index]),fit: BoxFit.fill)
+                        image: DecorationImage(image:AssetImage(b[index]),fit:BoxFit.fill)
                       ),
                     ),
                   );

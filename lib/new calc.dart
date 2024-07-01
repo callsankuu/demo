@@ -35,6 +35,9 @@ class _calciState extends State<calci> {
       child: SafeArea(
         child: Scaffold(
           appBar: AppBar(
+            centerTitle: true,
+            title: Text("CALCULATOR",style: TextStyle(color: Colors.blueAccent,
+                fontWeight: FontWeight.bold),),
             actions: [
               Padding(
                 padding: const EdgeInsets.all(8.0),
